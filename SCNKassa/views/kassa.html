@@ -1,0 +1,17 @@
+<head>
+    <title>SCN Kassa</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+    <h1>SCN Kassa</h1>
+    <h2>Categorieën</h2>
+    <ul>
+    {forall tabs}
+        <li><a href="?tab={show tab}">{show name}</a></li>
+    {/forall}
+        <li><a href="/add_category">Categorie toevoegen</a>
+    </ul>
+</body>

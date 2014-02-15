@@ -1,0 +1,20 @@
+<head>
+    <title>{show}</title>
+</head>
+
+<body>
+    Aantal keer bekeken: {show visits}<br />
+    {forall gezinsleden}
+        {show a lid}
+    {/forall}
+    <img src="derp.jpg" />
+</body>
+
+<template name="leeftijd">
+    Leeftijd: {show}
+</template>
+
+<template name="lid">
+    Naam: {show naam}<br />
+    {show a leeftijd with leeftijd}<br /><hr />
+</template>
