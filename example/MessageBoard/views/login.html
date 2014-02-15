@@ -1,0 +1,23 @@
+<head>
+</head>
+
+<body>
+    <h1>Log in to existing account</h1>
+    <span style="color: red">{show errorMessage}</span>
+    Enter your information here:
+    <form action="user/login" method="POST">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="user" /></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Login" style="width: 100%" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
